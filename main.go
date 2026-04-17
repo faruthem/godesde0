@@ -3,6 +3,9 @@ package main
 import (
 	"fmt"
 	"runtime"
+
+	"github.com/farithem/godesde0/ejercicios"
+	"github.com/farithem/godesde0/mouredev"
 )
 
 func main() {
@@ -29,4 +32,9 @@ func main() {
 	default:
 		fmt.Printf("%s no es Linux ni MacOS", os)
 	}
+	mouredev.Prueba()
+	textoPrueba := "6"
+	numero, mensaje := ejercicios.Texto(textoPrueba)
+	fmt.Println("Número:", numero)
+	fmt.Println("Mensaje:", mensaje)
 }
