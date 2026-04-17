@@ -1,12 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"runtime"
-
-	"github.com/farithem/godesde0/ejercicios"
-	"github.com/farithem/godesde0/mouredev"
-)
+import "github.com/farithem/godesde0/ejercicios"
 
 func main() {
 	/*variables.MuestroEnteros()
@@ -14,7 +8,7 @@ func main() {
 	estado, texto := variables.ConviertoaTexto(1584)
 	fmt.Println("Estado:", estado)
 	fmt.Println("Texto:", texto)
-	*/
+
 	if os := runtime.GOOS; os == "linux" || os == "darwin" {
 		fmt.Println("Estas usando Linux")
 		procesador := runtime.GOARCH
@@ -33,8 +27,14 @@ func main() {
 		fmt.Printf("%s no es Linux ni MacOS", os)
 	}
 	mouredev.Prueba()
-	textoPrueba := "6"
+	textoPrueba := "45"
 	numero, mensaje := ejercicios.Texto(textoPrueba)
 	fmt.Println("Número:", numero)
 	fmt.Println("Mensaje:", mensaje)
+
+	teclado.IngresoNumeros()
+
+	iteraciones.Iterar()
+	*/
+	ejercicios.TablaNumerica()
 }
