@@ -60,4 +60,4 @@ Lee la guía de [CONTRIBUTING](CONTRIBUTING.md) para aprender cómo contribuir a
 
 ---
 
-⌨️ Curso impartido por [MoureDev](https://moure.dev/)
+⌨️ Curso impartido por [Agustin Navarro Galdon](https://www.youtube.com/channel/UCcicBIIGoz_F5ChQ_ZPkWiw) y por [Pablo Tilotta ](https://www.youtube.com/c/PabloTilottaMaster)

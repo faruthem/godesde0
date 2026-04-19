@@ -1,6 +1,8 @@
 package main
 
-import "github.com/farithem/godesde0/ejercicios"
+import (
+	"github.com/farithem/godesde0/files"
+)
 
 func main() {
 	/*variables.MuestroEnteros()
@@ -36,5 +38,8 @@ func main() {
 
 	iteraciones.Iterar()
 	*/
-	ejercicios.TablaNumerica()
+	//fmt.Println(ejercicios.TablaNumerica())
+	//files.GrabaTabla()
+	//files.SumaTabla()
+	files.LeerArchivo()
 }

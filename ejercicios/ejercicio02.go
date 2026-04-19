@@ -17,8 +17,10 @@ import (
 
 var numero int
 var err error
+var texto string
 
-func TablaNumerica() {
+func TablaNumerica() string {
+	//texto = "" // Limpiar la variable antes de usarla
 	for {
 		fmt.Println("Ingrese el número: ")
 		scanner := bufio.NewScanner(os.Stdin)
@@ -26,7 +28,7 @@ func TablaNumerica() {
 			numero, err = strconv.Atoi(scanner.Text())
 			for i := 1; i <= 10; i++ {
 				resultado := numero * i
-				fmt.Printf("%d x %d = %d\n", numero, i, resultado)
+				texto += fmt.Sprintf("%d x %d = %d\n", numero, i, resultado)
 			}
 			if err == nil {
 				break
@@ -36,4 +38,5 @@ func TablaNumerica() {
 	if err != nil {
 		panic("El dato ingresado es incorrecto" + err.Error())
 	}
+	return texto
 }
