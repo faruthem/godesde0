@@ -13,6 +13,8 @@ Repositorio con ejemplos y ejercicios del curso de [Go desde cero](https://www.u
 | [variables](./variables) | Tipos de datos, declaraciones y conversiones |
 | [iteraciones](./iteraciones) | Bucles y control de flujo |
 | [teclado](./teclado) | Entrada de datos por teclado |
+| [funciones](./funciones) | Funciones y funciones anónimas |
+| [files](./files) | Lectura y escritura de archivos |
 | [ejercicios](./ejercicios) | Ejercicios prácticos del curso |
 | [mouredev](./mouredev) | Práctica con ejemplos básicos |
 
@@ -35,15 +37,12 @@ godesde0/
 ├── main.go              # Punto de entrada
 ├── go.mod              # Módulo de Go
 ├── ejercicios/         # Ejercicios del curso
-│   └── README.md
 ├── variables/          # Tipos de variables
-│   └── README.md
 ├── iteraciones/        # Bucles y flujos
-│   └── README.md
 ├── teclado/            # Entrada por teclado
-│   └── README.md
+├── funciones/         # Funciones y funciones anónimas
+├── files/              # Lectura y escritura de archivos
 └── mouredev/          # Práctica básica
-    └── README.md
 ```
 
 ## ✅ Próximos Pasos
@@ -60,4 +59,4 @@ Lee la guía de [CONTRIBUTING](CONTRIBUTING.md) para aprender cómo contribuir a
 
 ---
 
-⌨️ Curso impartido por [Agustin Navarro Galdon](https://www.youtube.com/channel/UCcicBIIGoz_F5ChQ_ZPkWiw) y por [Pablo Tilotta ](https://www.youtube.com/c/PabloTilottaMaster)
+⌨️ Curso impartido por [Agustin Navarro Galdon](https://www.youtube.com/channel/UCcicBIIGoz_F5ChQ_ZPkWiw) y [Pablo Tilotta](https://www.youtube.com/c/PabloTilottaMaster)

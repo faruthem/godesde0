@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/farithem/godesde0/files"
+	"github.com/farithem/godesde0/arreglos_slides"
 )
 
 func main() {
@@ -41,5 +41,10 @@ func main() {
 	//fmt.Println(ejercicios.TablaNumerica())
 	//files.GrabaTabla()
 	//files.SumaTabla()
-	files.LeerArchivo()
+	//files.LeerArchivo()
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+	//funciones.Exponencia(2)
+	//arreglos_slides.MuestroArreglos()
+	arreglos_slides.Capacidad()
 }

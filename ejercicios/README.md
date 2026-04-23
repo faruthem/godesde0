@@ -10,4 +10,6 @@ Paquete con ejercicios prácticos del curso.
 - Condicionales (`if/else`)
 
 ### ejercicio02.go
-- (Otro ejercicio del curso)
+- input por teclado con validación
+- Bucle para crear tabla de multiplicar (1-10)
+- Uso de `fmt.Sprintf` para formatear strings
