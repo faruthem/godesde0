@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/farithem/godesde0/arreglos_slides"
-)
+import "github.com/farithem/godesde0/mapas"
 
 func main() {
 	/*variables.MuestroEnteros()
@@ -46,5 +44,6 @@ func main() {
 	//funciones.LlamarClosure()
 	//funciones.Exponencia(2)
 	//arreglos_slides.MuestroArreglos()
-	arreglos_slides.Capacidad()
+	//arreglos_slides.Capacidad()
+	mapas.MostrarMapas()
 }
