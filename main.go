@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/farithem/godesde0/users"
+	"github.com/farithem/godesde0/ejer_interfaces"
+	"github.com/farithem/godesde0/modelos"
 )
 
 func main() {
@@ -48,5 +49,11 @@ func main() {
 	//arreglos_slides.MuestroArreglos()
 	//arreglos_slides.Capacidad()
 	//mapas.MostrarMapas()
-	users.AltaUsuario()
+	//users.AltaUsuario()
+	Kevin := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Kevin)
+	María := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(María)
+	Lechuga := new(modelos.Vegetal)
+	ejer_interfaces.SerVivo(Lechuga)
 }

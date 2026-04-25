@@ -13,8 +13,14 @@ Repositorio con ejemplos y ejercicios del curso de [Go desde cero](https://www.u
 | [variables](./variables) | Tipos de datos, declaraciones y conversiones |
 | [iteraciones](./iteraciones) | Bucles y control de flujo |
 | [teclado](./teclado) | Entrada de datos por teclado |
-| [funciones](./funciones) | Funciones y funciones anónimas |
+| [funciones](./funciones) | Funciones, closures y recursión |
 | [files](./files) | Lectura y escritura de archivos |
+| [arreglos_slides](./arreglos_slides) | Arreglos y slices |
+| [mapas](./mapas) | Mapas (diccionarios) |
+| [interfaces](./interfaces) | Definición de interfaces |
+| [modelos](./modelos) | Estructuras de datos |
+| [users](./users) | Gestión de usuarios |
+| [ejer_interfaces](./ejer_interfaces) | Ejercicios con interfaces |
 | [ejercicios](./ejercicios) | Ejercicios prácticos del curso |
 | [mouredev](./mouredev) | Práctica con ejemplos básicos |
 
@@ -36,12 +42,18 @@ go run main.go
 godesde0/
 ├── main.go              # Punto de entrada
 ├── go.mod              # Módulo de Go
-├── ejercicios/         # Ejercicios del curso
 ├── variables/          # Tipos de variables
 ├── iteraciones/        # Bucles y flujos
 ├── teclado/            # Entrada por teclado
-├── funciones/         # Funciones y funciones anónimas
-├── files/              # Lectura y escritura de archivos
+├── funciones/         # Funciones y closures
+├── files/              # Lectura/escritura de archivos
+├── arreglos_slides/    # Arreglos y slices
+├── mapas/              # Mapas y diccionarios
+├── interfaces/        # Definición de interfaces
+├── modelos/            # Estructuras de datos
+├── users/              # Gestión de usuarios
+├── ejer_interfaces/    # Ejercicios con interfaces
+├── ejercicios/         # Ejercicios del curso
 └── mouredev/          # Práctica básica
 ```
 

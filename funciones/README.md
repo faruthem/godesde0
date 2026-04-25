@@ -7,4 +7,10 @@ Paquete para aprender sobre funciones en Go.
 ### funcionesAnonimas.go
 - Funciones anónimas (closures)
 - Variables capturadas en closures
-- Funciones como valores de retorno
+
+### closures.go
+- Closures para generar tablas de multiplicar
+- Funciones que retornan funciones
+
+### recursion.go
+- Funciones recursivas
