@@ -15,6 +15,7 @@ Repositorio con ejemplos y ejercicios del curso de [Go desde cero](https://www.u
 | [teclado](./teclado) | Entrada de datos por teclado |
 | [funciones](./funciones) | Funciones, closures y recursión |
 | [defer_panic](./defer_panic) | Manejo de errores con defer, panic y recover |
+| [goroutines](./goroutines) | Concurrencia y channels |
 | [files](./files) | Lectura y escritura de archivos |
 | [arreglos_slides](./arreglos_slides) | Arreglos y slices |
 | [mapas](./mapas) | Mapas (diccionarios) |
@@ -48,6 +49,7 @@ godesde0/
 ├── teclado/            # Entrada por teclado
 ├── funciones/         # Funciones y closures
 ├── defer_panic/       # defer, panic y recover
+├── goroutines/         # Concurrencia y channels
 ├── files/              # Lectura/escritura de archivos
 ├── arreglos_slides/    # Arreglos y slices
 ├── mapas/              # Mapas y diccionarios

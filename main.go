@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/farithem/godesde0/goroutines"
 )
 
@@ -57,5 +59,12 @@ func main() {
 	//ejer_interfaces.SerVivo(Lechuga)
 	//defer_panic.VemosDefer()
 	//defer_panic.EjemploPanic()
-	goroutines.MiNombreLentooo("Farithem")
+
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLentooo("Farithem Themar", canal1)
+	defer func() {
+		<-canal1
+	}()
+	fmt.Println("Estoy aquí")
+
 }
