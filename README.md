@@ -14,6 +14,7 @@ Repositorio con ejemplos y ejercicios del curso de [Go desde cero](https://www.u
 | [iteraciones](./iteraciones) | Bucles y control de flujo |
 | [teclado](./teclado) | Entrada de datos por teclado |
 | [funciones](./funciones) | Funciones, closures y recursión |
+| [defer_panic](./defer_panic) | Manejo de errores con defer, panic y recover |
 | [files](./files) | Lectura y escritura de archivos |
 | [arreglos_slides](./arreglos_slides) | Arreglos y slices |
 | [mapas](./mapas) | Mapas (diccionarios) |
@@ -46,6 +47,7 @@ godesde0/
 ├── iteraciones/        # Bucles y flujos
 ├── teclado/            # Entrada por teclado
 ├── funciones/         # Funciones y closures
+├── defer_panic/       # defer, panic y recover
 ├── files/              # Lectura/escritura de archivos
 ├── arreglos_slides/    # Arreglos y slices
 ├── mapas/              # Mapas y diccionarios

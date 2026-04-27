@@ -1,9 +1,6 @@
 package main
 
-import (
-	"github.com/farithem/godesde0/ejer_interfaces"
-	"github.com/farithem/godesde0/modelos"
-)
+import "github.com/farithem/godesde0/defer_panic"
 
 func main() {
 	/*variables.MuestroEnteros()
@@ -50,10 +47,12 @@ func main() {
 	//arreglos_slides.Capacidad()
 	//mapas.MostrarMapas()
 	//users.AltaUsuario()
-	Kevin := new(modelos.Hombre)
-	ejer_interfaces.HumanosRespirando(Kevin)
-	María := new(modelos.Mujer)
-	ejer_interfaces.HumanosRespirando(María)
-	Lechuga := new(modelos.Vegetal)
-	ejer_interfaces.SerVivo(Lechuga)
+	//Kevin := new(modelos.Hombre)
+	//ejer_interfaces.HumanosRespirando(Kevin)
+	//María := new(modelos.Mujer)
+	//ejer_interfaces.HumanosRespirando(María)
+	//Lechuga := new(modelos.Vegetal)
+	//ejer_interfaces.SerVivo(Lechuga)
+	defer_panic.VemosDefer()
+	defer_panic.EjemploPanic()
 }
