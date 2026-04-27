@@ -1,6 +1,8 @@
 package main
 
-import "github.com/farithem/godesde0/defer_panic"
+import (
+	"github.com/farithem/godesde0/goroutines"
+)
 
 func main() {
 	/*variables.MuestroEnteros()
@@ -53,6 +55,7 @@ func main() {
 	//ejer_interfaces.HumanosRespirando(María)
 	//Lechuga := new(modelos.Vegetal)
 	//ejer_interfaces.SerVivo(Lechuga)
-	defer_panic.VemosDefer()
-	defer_panic.EjemploPanic()
+	//defer_panic.VemosDefer()
+	//defer_panic.EjemploPanic()
+	goroutines.MiNombreLentooo("Farithem")
 }
