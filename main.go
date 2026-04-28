@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/farithem/godesde0/goroutines"
-)
+import "github.com/farithem/godesde0/middleware"
 
 func main() {
 	/*variables.MuestroEnteros()
@@ -60,11 +56,14 @@ func main() {
 	//defer_panic.VemosDefer()
 	//defer_panic.EjemploPanic()
 
-	canal1 := make(chan bool)
+	/*nal1 := make(chan bool)
 	go goroutines.MiNombreLentooo("Farithem Themar", canal1)
 	defer func() {
 		<-canal1
 	}()
 	fmt.Println("Estoy aquí")
+	*/
+	//bserver.MiWebServer()
+	middleware.MiMiddleware()
 
 }
